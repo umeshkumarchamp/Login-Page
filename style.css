@@ -1,0 +1,52 @@
+body{
+    background-color: #0b0c10;
+    color: #66fcf1; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    position: absolute; 
+    left : 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 1px solid black; 
+    padding : 40px; 
+    box-shadow : 0px 1px 2px 0px rgba(0,255,255,0.7), 
+                1px 2px 4px 0px rgba(0,255,255,0.7), 
+                2px 4px 8px 0px rgba(0,255,255,0.7), 
+                2px 4px 16px 0px rgba(0,255,255,0.7);
+
+
+}
+
+label , input[type="email"], input[type="password"]{
+    font-size : 20px; 
+
+}
+
+input[type="email"], input[type="password"]{
+    background: transparent;
+    color: #66fcf1; 
+    text-transform: none; 
+    padding : 10px;
+    border : 1px solid #66fcf1;
+}
+
+button{
+    font-size: 20px; 
+    background: transparent;
+    color: #66fcf1; 
+    padding: 10px; 
+    text-transform: uppercase; 
+    border : 1px solid #66fcf1; 
+    transition: 0.2s ease;
+}
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 10px 1px;
+}
+
+h2{
+    text-decoration: underline; 
+    font-size: 30px;;
+}
